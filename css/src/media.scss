@@ -1,0 +1,269 @@
+@media screen and (min-width: 768px){
+	.wrapper{
+		width: 768px;
+	}
+	header {
+		height: 702px;
+	}
+	.header_wrapper-link{
+		width: 240px;
+		margin: 19px 4px 0;
+		float: right;
+	}
+	.logo-header {
+		margin-top: 50px;
+		display: inline-block;
+		margin-left: -244px;
+	}
+	.header_title {
+		font-size: 52px;
+		margin-top: 115px;
+		line-height: 63px;
+	}
+	.header_info{
+		width: 409px;
+		font-size: 24px;
+		margin: 28px auto 38px;
+	}
+	.button {
+		padding: 9px 21px;
+	}
+	.works_header {
+		margin: 94px 0 33px;
+		letter-spacing: -0.5px;
+	}
+	.works_steps{
+		display: none;
+	}
+	.works_slider{
+		display: block;
+	}
+	.jcarousel_wrapper {
+		display: inline-block;
+		width: 238px;
+		overflow: hidden;
+		text-align: center;
+		position: relative;
+		margin: 0px 4px 0 10px;
+	}
+	.jcarousel {
+		display: block;
+		overflow: hidden;
+		width: 504px;
+	}
+	.jcarousel ul {
+		width: 20000em;
+		position: relative;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.jcarousel li {
+		float: left;
+	}
+	.jcarousel li img {
+		height: 400px;
+		position: relative;
+		left: -136px;  
+	}
+	.jcarousel-prev,
+	.jcarousel-next{
+		position: relative;
+		display: inline-block;
+	}
+	.jcarousel-prev{
+		top: -362px;
+		left: -66px;
+	}
+	.jcarousel-next{
+		top: -362px;
+		left: 65px;
+	}
+	.jcarusel_info{
+		position: absolute;
+		top: 212px;
+		left: 11px;
+		text-align:left;
+		font-family: $Montserrat;
+		color: $white;
+	}
+	.jcarusel_info-2{
+		position: absolute;
+		top: 259px;
+		.jcarusel_info{
+			margin: 15px 7px;
+		}
+	}
+	.partners{
+		width: 532px;
+		margin: 0 auto 70px;
+	}
+	.partners_header {
+		margin-top: 35px;
+		letter-spacing: 0px;
+	}
+	.partners_avatar {
+		margin: 29px auto 15px;
+	}
+	.partners_container {
+		float: left; 
+		margin: 0 16px 0 41px;
+		height: 260px;
+	}
+	.button-partners{
+		padding: 9px 28px;
+		margin: 41px 0 27px;
+	}  
+	.holiday-ideas_header {
+		margin: 10px 0 28px;
+	}
+	.holiday-ideas_item,
+	.grid-item{
+		position: relative;
+		height: 310px;
+		width: 31%;
+		margin: 8px;
+		overflow: hidden;
+		-moz-border-radius: 7px; /* Firefox */
+		-webkit-border-radius:7px; /* Safari, Chrome */
+		border-radius: 7px; /* CSS3 */
+		float: left; 
+	}
+	.holiday-ideas_text {
+		padding-top: 189px;
+	}
+	.holiday-ideas_item:nth-child(5),
+	.holiday-ideas_item:nth-child(6),
+	.grid-item:nth-child(5),
+	.grid-item:nth-child(6){
+		width: 64%;
+	}
+	.grid-item img{
+		height: 400px;
+	}
+	.holiday-ideas_header-bottom {
+		margin: 95px 0 36px;
+	}
+	.search_input {
+		margin: 21px 5px 100px 0;
+		width: 239px;
+		padding-left: 13px;
+	}
+	.search_button{
+		padding: 9px 24px;
+	}
+	footer {
+		text-align: left;
+		padding: 0 30px;
+	}
+	.logo-footer,
+	.menu-footer,
+	.partners_link-footer
+	{
+		float: left;
+		margin-right: 85px;
+	}
+	.logo-footer{
+		margin: 38px 80px 0 11px;
+	}
+	.menu-footer{
+		margin-top: 25px;
+	}
+	.partners_link-footer{
+		margin: 38px 104px 0 0;  
+	}
+	.menu_header{
+		margin: 13px 0 14px;
+	}
+	.menu_item{
+		display: block;
+		margin: 9px 0;
+	}
+	.copyright-footer{
+		float: right;
+		margin: 39px 10px 0 0;
+	}
+}
+@media screen and (min-width: 960px){
+	.wrapper{
+		width: 100%;
+	}
+	.header_wrapper{
+		width: 945px;
+		margin: 0 auto;
+	}
+	.logo-header {
+		margin-left: -606px;
+	}
+	.header_wrapper-link {
+		width: 153px;
+	}
+	.header_link{
+		margin: 20px 0 0 0;
+	} 
+	.header_link-log-in{
+		margin-right: 14px;
+	}
+	.header_info{
+		width: 420px;
+		font-size: 24px;
+	}
+	.works_slider{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.jcarousel_wrapper {
+		width: 303px;
+		margin: 0 3px 0 10px;
+	}
+	.jcarousel li img {
+		left: -105px;
+	}
+	.jcarusel_info {
+		width: 257px;
+		top: 230px;
+	}
+	.jcarousel-prev {
+		top: -248px;
+		left: -98px;
+	}
+	.jcarousel-next {
+		top: -248px;
+		left: 98px;
+	}
+	.partners {
+		width: 960px;
+	}
+	.partners_container {
+		margin: 0 16px 0 23px;
+	}
+	.grid-item, 
+	.holiday-ideas_item {
+		height: 312px;
+		margin: 11px;
+	}
+	.holiday-ideas_text {
+		padding-top: 141px;
+	}
+	.holiday-ideas_item:nth-child(3) .holiday-ideas_text {
+		padding-top: 130px;
+	}
+	.holiday-ideas{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.holiday-ideas_header-bottom {
+		margin: 76px 0 36px;
+	}
+	.footer_wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.logo-footer {
+		margin: 38px 96px 0 11px;
+	}
+	.menu-footer {
+		margin-right: 92px;
+	}
+}
+

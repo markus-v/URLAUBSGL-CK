@@ -1,0 +1,13 @@
+{
+  "name": "Exam",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-spritesmith": "^6.3.1"
+  }
+}
